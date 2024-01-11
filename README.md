@@ -33,7 +33,7 @@
 在需要调用的位置按照以下格式输入您的音乐信息
 
 ```html
-<div music Title="音乐名称" Img="封面图片.jpg" File="文件路径.mp3"></div>
+<div music Title="音乐名称" Img="封面图片.jpg" File="音乐路径"></div>
 ```
 
 ### 使用案例
