@@ -1,0 +1,106 @@
+.player {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    max-width: 350px;
+    font-family: Arial, sans-serif;
+}
+
+.cover {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    margin-right: 15px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.cover::after, .playBtn {
+    opacity: 0; 
+    transition: opacity 0.3s ease;
+}
+
+.cover:hover::after, .cover:hover .playBtn {
+    opacity: 1; 
+}
+
+.cover::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3); 
+    z-index: 1;
+}
+
+.playBtn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    color: #ffffff;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.song-info {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.song-title {
+    font-size: 0.9em;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 6px;
+}
+
+.progress-container {
+    width: 100%;
+    height: 3px;
+    background: #ddd;
+    border-radius: 1.5px;
+    cursor: pointer;
+    position: relative;
+}
+
+.progress, .preview-progress {
+    height: 100%;
+    border-radius: 1.5px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.progress {
+    background: #007bff;
+    width: 0%;
+    transition: width 0.3s ease;
+}
+
+.preview-progress {
+    background: rgba(0, 123, 255, 0.5); 
+    width: 0%;
+}
+
+.time {
+    font-size: 0.75em;
+    color: #666;
+    margin-top: 8px;
+}
+
+
+
