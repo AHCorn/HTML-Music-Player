@@ -39,10 +39,16 @@ Enter your music information in the following format where you want to invoke it
 ```
 
 ### Usage Example
+Choose the method of invocation according to your use case.
+#### HTML
 ```html
 <div music Title="明日への旅路（Journey to Tomorrow）" Img="music.jpg" File="明日への旅路.mp3"></div>
 ```
-
 You can also invoke it in this way in Markdown files used in static blogs, already tested and working with Hugo.
+#### VUE
+```vue
+<MusicPlayer title="明日への旅路 (Journey to Tomorrow)" img-src="music.jpg" audio-src="明日への旅路.mp3" />
+```
+After saving the VUE file in the corresponding path, you can use this player in programs that support VUE invocation.
 
 
