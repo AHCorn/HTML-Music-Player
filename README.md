@@ -1,7 +1,7 @@
 <div align="center">
 
 # 🎵 HTML-MusicPlayer 
-### **简体中文** / <a href="https://github.com/AHCorn/HTML-MusicPlayer/README_EN.md"> English </a> 
+### **简体中文** / <a href="https://github.com/AHCorn/HTML-MusicPlayer/blob/main/README_EN.md"> English </a> 
 
 一个基于HTML编写的简洁音乐播放器
 
