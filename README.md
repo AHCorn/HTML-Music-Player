@@ -26,7 +26,7 @@ A simple music player written in HTML
 
 ## 💻 使用
 
-首先在 HTML 文件中调用外部文件：
+首先在 HTML 文件中调用外部文件
 ```html
 <link rel="stylesheet" href="music.css">
 ```
@@ -35,14 +35,14 @@ A simple music player written in HTML
 <script src="music.js"></script>
 ```
 
-在需要调用的位置按照以下格式输入您的音乐信息：
+在需要调用的位置按照以下格式输入您的音乐信息
 
 ```html
 <div music Title="音乐名称" Img="封面图片.jpg" File="音乐路径"></div>
 ```
 
 ### 使用案例
-请根据您的使用场景来选择调用的方式：
+请根据您的使用场景来选择调用的方式
 #### HTML
 ```html
 <div music Title="明日への旅路（明日的旅途）" Img="music.jpg" File="明日への旅路.mp3"></div>
