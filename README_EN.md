@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎵 HTML-MusicPlayer 
+# 🎵 HTML-Music-Player 
 ###  <a href="https://github.com/AHCorn/HTML-MusicPlayer">简体中文</a> / English  
 
 A simple music player written in HTML
